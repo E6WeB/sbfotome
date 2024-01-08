@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /css/
+Sitemap: https://sbfoto.me/sitemap.xml
