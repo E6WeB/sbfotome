@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,400;8..30,500;8..30,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Piazzolla", serif;
+  text-decoration: none !important;
+  color: #4a5568 !important;
+}
+
+.main-wrapper {
+  width: 100%;
+  min-height: calc(100vh - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  max-width: 600px;
+}
+
+.card-image {
+  margin-bottom: 30px;
+}
+.card-image img {
+  width:118px;
+  height: 118px;
+}
+img.card-image {
+  width:118px;
+  height: 118px;
+}
+
+.card-heading-link {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.card-button {
+  font-size: 1.35rem;
+  padding: 8px 20px;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease-in-out;
+  border-radius: 3px;
+  border: 2px solid #070537;
+  outline: none;
+  margin-top: 20px;
+}
+
+.card-button:hover {
+  background-color: #070537 !important;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-icon-container {
+  width: 20px;
+  height: 20px;
+}
+.footer-icon-container img {
+  width: 18px;
+  height:18px;
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    margin-top: 25%;
+  }
+  .main-container {
+    flex-direction: column !important;
+    gap: 60px;
+  }
+  .footer {
+    margin-top: 10%;
+  }
+}
